@@ -31,6 +31,7 @@
             font-family:monospace;
         }
         .menu{
+            /* display: flex; */
             margin-top: 150px;
             margin-left: 220px;
             margin-right: 690px;
@@ -40,12 +41,15 @@
             border-radius: 15px;
             box-shadow: 10px 7px 25px rgb(47, 47, 47);
         }
+        /* .menu a{
+            display: flex;
+        } */
         p{
             background-color: transparent;
             padding: 10px;
             font-size: 40px;
         }
-        .menu a:hover{
+        .link:hover{
             color: #626262;
             font-size: 45px;
         }
@@ -65,6 +69,10 @@
             border-radius: 10px;
             background-color: #2F3061;
         }
+        /* .menu p a{
+            display: flex;
+            flex-direction: row;
+        } */
     </style>
 </head>
 <body>
@@ -75,10 +83,10 @@
     </header>
         <div class="menu">
             <h1 class="listname">GAME RECOMMENDATION</h1>
-            <p><a href="/all.html">ALL</a></p>
-            <p><a href="/BestThisYear.html">THE TOP HITS OF 2023</a></p>
-            <p><a href="/GameOfTheYear.html">GAME OF THE YEAR</a></p>
-            <p><a href="/NewReleases.html">THE LATEST HITS</a></p>
+            <p><a class="link" href="/all.html">ALL</a></p>
+            <p><a class="link" href="/BestThisYear.html">THE TOP HITS OF 2023</a></p>
+            <p><a class="link" href="/GameOfTheYear.html">GAME OF THE YEAR</a></p>
+            <p><a class="link"href="/NewReleases.html">THE LATEST HITS</a></p>
         </div>
 </body>
 </html>
