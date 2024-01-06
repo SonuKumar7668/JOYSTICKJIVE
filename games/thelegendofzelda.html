@@ -5,119 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Legend of Zelda</title>
-    <style>
-        *{
-            margin: 0px;
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background-color: rgb(50, 30, 58);
-        }
-        .homepage{
-            background-color: rgba(128, 128, 128, 0.495);
-            height: 70px;
-            display: flex;
-        }
-        .title{
-            color: aqua;
-            font-weight: bold;
-            background-color: transparent;
-            padding-left: 160px;
-            padding-top: 5px;
-            font-size: 30px;
-            font-family:monospace;
-        }
-        .title p{
-            background-color: transparent;
-            padding: 10px;
-            font-size: 40px;
-        }
-        a{
-            text-decoration: none;
-            background-color: transparent;
-        }
-        .left{
-            background-color: rgb(85, 67, 92);
-            border-radius: 15px;
-            margin: 10px;
-            position: fixed;
-            height: 80%;
-            width: 35%;
-            display: flex;
-            flex-direction: column;
-        }
-        .img{
-            margin: 5px auto;
-            border-radius: 5px;
-            width: 247px;
-            height: 327px;
-            background-image: url(/img/TheLegendOfZelda.jpg);
-            background-size: cover;
-            align-items: center;
-            
-        }
-        .name{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-        .name p{
-            background-color: rgb(85, 67, 92);
-            text-align: center;
-            font-weight: bold;
-            font-size: large;
-            color: rgb(255, 193, 193);
-            height: 50px;
-        }
-        .name p a{
-            background-color: rgb(11, 11, 71);
-            padding: 5px;
-            border-radius: 8px;
-            border: 3px dotted rgb(60, 15, 103);
-            transition-property: all;
-            transition-duration: 0.5s;
-        }
-        .name p a:hover{
-            background-color: rgb(60, 15, 103);
-            padding: 5px;
-            border: 3px dashed rgb(11, 11, 71);
-            border-radius: 8px;
-            color: rgb(255, 198, 93);
-            font-size: 19px;
-        }
-        /* discription page */
-        .right{
-            background-color: rgb(85, 67, 92);
-            margin-left: 560px;
-            margin-right: 15px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            border-radius: 15px;
-            right: 5px;
-            width: 60%;
-            height: auto;
-            padding: 10px;
-        }
-        .right p{
-            margin: 5px;
-            padding: 15px;
-            background-color:rgb(85, 67, 92);
-        }
-        .right h1{
-            color: rgb(0, 191, 255);
-            margin: 10px;
-            padding: 5px;
-            background-color:rgb(85, 67, 92);
-        }
-        .right h3{
-            color: rgb(236, 158, 158);
-            margin: 5px;
-            padding: 15px;
-            background-color:rgb(85, 67, 92);
-        }
-        .warning{
-            color: rgb(255, 29, 29);
-        }
-    </style>
+    <link rel="stylesheet" href="/games/style.css">
 </head>
 <body>
     <header class="homepage">
@@ -126,8 +14,7 @@
         </div>
     </header>
     <div class="left">
-        <div class="img"> 
-        </div>
+        <div class="img"> <img src="/img/TheLegendOfZelda.jpg" alt="loading"></div>
         <div class="name">
             <p>The Legend of Zelda: Breath of the Wild</p>
             <p>Rating: 10/10</p>

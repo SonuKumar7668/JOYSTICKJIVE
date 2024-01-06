@@ -64,7 +64,7 @@ a{
     width: 23%;
 }
 img{
-    background-size: inherit;
+    background-size: cover;
     height: 466px;
     width:350px;
     /* object-fit: contain; */
