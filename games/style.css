@@ -92,9 +92,10 @@ img{
     border-radius: 15px;
     right: 5px;
     width: 60%;
-    height: auto;
+    height: 580px;
     padding: 10px;
     text-align: justify;
+    overflow-y: auto;
 }
 .right p{
     margin: 5px;
