@@ -34,7 +34,8 @@
             /* display: flex; */
             margin-top: 150px;
             margin-left: 220px;
-            margin-right: 690px;
+            margin-right: 220px;
+            width: 30rem;
             padding: 40px;
             background-color: rgba(255, 255, 255, 0.423);
             /* border: 2px solid red; */
@@ -44,19 +45,19 @@
         /* .menu a{
             display: flex;
         } */
-        p{
-            background-color: transparent;
-            padding: 10px;
-            font-size: 40px;
-        }
         .link:hover{
             color: #626262;
-            font-size: 45px;
+            font-size: 3rem;
         }
         a{
+            display: block;
+            width: 100%;
             text-decoration: none;
             transition-property: all;
             transition-duration: 0.5s;
+            background-color: transparent;
+            padding: 10px;
+            font-size: 2rem;
         }
         .head{
             color: rgb(89, 251, 183);
@@ -78,15 +79,15 @@
 <body>
     <header class="homepage">
             <div class="title">
-                <p ><a class="head" href="/index.html">@ JOYSTICKJIVE</a></p>
+                <a class="head" href="/index.html">@ JOYSTICKJIVE</a>
             </div>
     </header>
         <div class="menu">
             <h1 class="listname">GAME RECOMMENDATION</h1>
-            <p><a class="link" href="/all.html">ALL</a></p>
-            <p><a class="link" href="/BestThisYear.html">THE TOP HITS OF 2023</a></p>
-            <p><a class="link" href="/GameOfTheYear.html">GAME OF THE YEAR</a></p>
-            <p><a class="link"href="/NewReleases.html">THE LATEST HITS</a></p>
+            <a class="link" href="/all.html">ALL</a>
+            <a class="link" href="/BestThisYear.html">THE TOP HITS OF 2023</a>
+            <a class="link" href="/GameOfTheYear.html">GAME OF THE YEAR</a>
+            <a class="link"href="/NewReleases.html">THE LATEST HITS</a>
         </div>
 </body>
 </html>

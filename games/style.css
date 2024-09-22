@@ -91,11 +91,12 @@ img{
     margin-bottom: 10px;
     border-radius: 15px;
     right: 5px;
-    width: 60%;
+    width: 62%;
     height: 580px;
     padding: 10px;
     text-align: justify;
     overflow-y: auto;
+    scrollbar-color: rgb(85, 67, 92);
 }
 .right p{
     margin: 5px;
